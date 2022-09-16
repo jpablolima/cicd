@@ -39,6 +39,8 @@ header div {
     border-radius: 50%;
     display: flex;
     padding: 4px;
+
+    transition: transform .3s;
 }
 
 header div img {
@@ -46,6 +48,11 @@ header div img {
     border-radius: 50%;
     
 }
+
+header div:hover {
+    transform: scale(1.1);
+}
+
 
 
 main{
@@ -93,6 +100,17 @@ section ul {
     gap: 16px;
     margin-top: 24px;
 }
+
+
+section ul li {
+
+    transition: transform .3s;
+}
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+
 
 .tools-list img {
     width: 90px;
